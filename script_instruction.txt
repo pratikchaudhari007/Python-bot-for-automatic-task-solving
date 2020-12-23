@@ -1,0 +1,19 @@
+Goal:
+    --> level up the acount (solve task)
+
+    how to do it?
+
+        --> Check for existing solution in google
+
+    Logic:
+
+    1 -->  Open Browser, Login and go to main CheckIO page.
+    2 -->  Get info about all islands links
+    3 --> Go on the link from X island.
+    4 --> Get all info about all tasks from current island. (Titles,links,and if_solved)
+    5 --> Go to the link of task and find a solution of a task.
+    6 --> go to task url + /solve/ + paste solution.
+    7 --> Click Check:
+        7.1 --> Task solved --> move on the next task(repeat algorithm)
+        7.2 --> task not solved -> Go to point 5 (5 tries MAX , then skip)
+    8 --> if all tasks are solved from island or skipped then go to point 2
